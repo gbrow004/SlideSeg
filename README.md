@@ -2,7 +2,7 @@
 
 Author: Brendan Crabb <brendancrabb8388@pointloma.edu> <br>
 Created August 1, 2017 <br>
-Edit by G. Thomas Brown for sinlge layer (ie, highest magnification) analysis ONLY!
+Edit by G. Thomas Brown for <B>sinlge layer (ie, highest magnification) analysis ONLY!</B>
 <hr>
 
 Welcome to SlideSeg, a python module that allows you to segment whole slide images into usable image
