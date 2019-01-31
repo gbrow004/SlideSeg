@@ -90,7 +90,7 @@ def makemask(annotation_key, size, xml_path):
         else:
             addkeys(annotation_key, key)
             color_codes = loadkeys(annotation_key)
-            color_codes = color_code[key][0]
+            color_codes = color_codes[key][0]
 
         points = []
         for child in reg.iter('Vertices'):
