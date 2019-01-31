@@ -90,7 +90,7 @@ def makemask(annotation_key, size, xml_path):
         else:
             addkeys(annotation_key, key)
             color_codes = loadkeys(annotation_key)
-            color_codes = color_codes[key][0]
+            color_codes = color_code[key][0]
 
         points = []
         for child in reg.iter('Vertices'):
@@ -435,7 +435,7 @@ def getchips(levels, dims, chip_size, overlap, mask, annotations, filename, suff
     _save_count_blank = 1
     _save_count_annotated = 1
 
-    for i in range(levels):
+    for i in range(1):
         width, height = dims[i]
         scale_factor_width = float(dims[0][0]) / width
         scale_factor_height = float(dims[0][1]) / height
